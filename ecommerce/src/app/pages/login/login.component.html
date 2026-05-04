@@ -1,0 +1,29 @@
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+  <mat-card class="p-4" style="width: 100%; max-width: 400px;">
+    <mat-card-header class="d-flex justify-content-center mb-3">
+      <mat-card-title class="fs-4">Acesso ao Sistema</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <form class="d-flex flex-column">
+        <mat-form-field appearance="outline" class="w-100 mb-2">
+          <mat-label>Email ou Usuário</mat-label>
+          <input matInput type="email" placeholder="Ex. joao@email.com" required>
+          <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="w-100 mb-3">
+          <mat-label>Senha</mat-label>
+          <input matInput type="password" required>
+          <mat-icon matSuffix>lock</mat-icon>
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" class="w-100 py-2 fs-6">Entrar</button>
+      </form>
+    </mat-card-content>
+    
+    <mat-card-actions class="d-flex justify-content-center mt-2">
+      <button mat-button color="accent">Esqueci minha senha</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
